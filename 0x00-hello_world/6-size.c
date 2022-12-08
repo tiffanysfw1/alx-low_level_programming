@@ -3,7 +3,9 @@
 /**
  * main -Entry  point
  * Return: Always 0 (Success)
+ *
  */
+
 int main(void)
 {
 	int b;
@@ -12,10 +14,10 @@ int main(void)
 	long long int k;
 	float v;
 
-	printf("Size of char: %zu byte(s)\n", sizeof(char));
-	printf("Size of int: %zu byte(s)\n", sizeof(int));
-	printf("Size of long int: %zu byte(s)\n", sizeof(long int));
-	printf("Size of long long int: %zu byte(s)\n", sizeof(long long int));
-	printf("Size of float: %zu byte(s)\n", sizeof(float));
+	printf("Size of char: %zu byte(s)\n", (unsigned long)sizeof(x));
+	printf("Size of int: %zu byte(s)\n", (unsigned long)sizeof(b));
+	printf("Size of long int: %zu byte(s)\n", (unsigned long)sizeof(y));
+	printf("Size of long long int: %zu byte(s)\n", (unsigned long)sizeof(k));
+	printf("Size of float: %zu byte(s)\n", (unsigned long)sizeof(v));
         return (0);
 }
