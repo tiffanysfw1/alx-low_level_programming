@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - Print aplhabet except q and e
  *
  * return: always 0
  */
