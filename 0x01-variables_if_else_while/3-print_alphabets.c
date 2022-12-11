@@ -2,7 +2,7 @@
 
 /**
  * main - Print alphabet for both lower and uppercase
- * 
+ *
  * Return: always 0 (success)
  */
 int main(void)
