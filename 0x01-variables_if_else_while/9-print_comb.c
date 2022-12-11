@@ -1,4 +1,4 @@
-#include <stdio.h
+#include <stdio.h>
 
 /**
  * main - print single digits
@@ -16,5 +16,6 @@ int main(void)
 		putchar(',');
 			putchar(' ');
 	}
-	putchar('\');
+	putchar('\n');
 	return (0);
+}
