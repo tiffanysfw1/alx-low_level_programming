@@ -2,8 +2,8 @@
 
 /**
  * main - Print alphabet for both lower and uppercase
- *
- * return: always 0 (success)
+ * 
+ * Return: always 0 (success)
  */
 int main(void)
 {
