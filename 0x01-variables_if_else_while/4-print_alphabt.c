@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - alphabets apart from q and e
+ * main - Entry point
  *
  * return: always 0
  */
