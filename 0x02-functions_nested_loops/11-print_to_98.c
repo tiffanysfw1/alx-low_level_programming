@@ -4,7 +4,7 @@
 /**
  * print_98 - check number from n to 98
  * @n: integer n
- * Description: print all natural numbers
+ * Description: function that print all natural numbers
  * Return: none
  */
 void print_to_98(int n)
