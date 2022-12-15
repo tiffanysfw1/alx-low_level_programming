@@ -2,10 +2,11 @@
 
 /**
  * main - print lowecase alphabet letters
- * Return: always zero
+ * Return: void
  *
  */
-void print_alphabet(void);
+
+void print_alphabet(void)
 {
 	int x;
 
