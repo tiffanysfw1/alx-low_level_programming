@@ -2,7 +2,6 @@
 
 /**
  * print_alphabet - print lowecase alphabet letters
- * Return: void
  *
  */
 
