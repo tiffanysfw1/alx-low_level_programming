@@ -10,11 +10,6 @@ void print_number(int n)
 {
 	if (n == 0)
 		_putchar('0');
-	else if (n == 0)
-		_putchar('0');
-	else if (n < 0)
-	{
-		_putchar('-');
 		else if (n < 0)
 		{
 			_putchar('-');
@@ -22,7 +17,7 @@ void print_number(int n)
 		}
 		else
 			print_integer(n);
-	}
+}
 	
 	/**
 	 * print_integer - A function to print n
