@@ -2,8 +2,8 @@
 
 /**
  * print_most_numbers - function that print the numbers, from 0 to 9
- * Do not print 2 and 4
- * followed by a new line
+ * Do not print 2 and 4.
+ * followed by a new line.
  * Return: Always 0
  */
 void print_most_numbers(void)
