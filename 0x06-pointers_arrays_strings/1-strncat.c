@@ -29,7 +29,7 @@ char *_strncat(char *dest, char *src, int n)
 
 	src = bvn;
 
-	for (; i < n; i++;)
+	for (; i < n; i++)
 	{
 		*dest++ = *src++;
 	}
