@@ -10,30 +10,24 @@
 char *_strncat(char *dest, char *src, int n)
 {
 	char *vmp = dest, *bvn = src;
-	int gimp = 0; i = 0;
+	int srclen = 0, i = 0;
 
 	while (*src)
 	{
-		gimp++;
+		srclen++;
 		src++;
 	}
 
 	while (*dest)
-	{
 		dest++;
-	}
 
-	if (n > gimp)
-	{
-		n = gimp;
-	}
+	if (n > srclen)
+		n = srclen;
 
 	src = bvn;
 
 	for (; i < n; i++)
-	{
 		*dest++ = *src++;
-	}
 
 	*dest = '\0';
 	return (temp);
