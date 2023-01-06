@@ -2,9 +2,9 @@
 
 /**
 * _pow_recursion - function that gives the number raised to the power
-@x: number
-@y: power
-Return: always zero
+* @x: number
+* @y: power
+* Return: always zero
 */
 int _pow_recursion(int x, int y)
 {
