@@ -6,13 +6,21 @@
  * @b: pointer to arguments
  * Return: success
  */
-int main(int a, char **b)
+int main(int argc, char **argv)
 {
-	if (a < 3)
+	int n, m, diff;
+
+	if (argc != 3)
 	{
-		printf("error\n");
+		printf("Error\n");
 		return (1);
 	}
-	printf("%d\n", atoi(*(b + 1)) * atoi(*(b + 2)));
+
+	n = atoi(argv[1]);
+	m = atoi(argv[2]);
+	diff = n * m;
+
+	printf("%i\n", diff);
+
 	return (0);
 }
