@@ -2,8 +2,8 @@
 #include <stdlib.h>
 /**
  * main - function to multiply numbers in form of integers
- * @a: number of arguments
- * @b: pointer to arguments
+ * @argc: number of arguments
+ * @argv: pointer to arguments
  * Return: success
  */
 int main(int argc, char **argv)
