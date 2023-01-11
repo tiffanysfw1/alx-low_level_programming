@@ -22,5 +22,4 @@ char *create_array(unsigned int size, char c)
                 arrays[b] = c;                                                                                                          
                                                                                                                                         
         return (arrays);                                                                                                                
-}                                                                                                                                       
-~            
+}                                                                                                                                     
