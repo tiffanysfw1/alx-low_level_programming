@@ -5,6 +5,7 @@
  * create_array - create arrays of char dynamically
  * @size: size
  * @c: always zero
+ * Return: Always zero
  */
 char *create_array(unsigned int size, char c)
 {
