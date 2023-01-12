@@ -40,11 +40,10 @@ return (words);
 }
 
 /**
-
 * util - a util function for fetching words into an array
 * @words: the strings array
 * @str: the string
-
+* Return: array
 */
 void util(char **words, char *str)
 {
