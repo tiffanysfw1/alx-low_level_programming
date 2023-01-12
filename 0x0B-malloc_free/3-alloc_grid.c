@@ -9,12 +9,12 @@ Return: pointer
 */
 int **alloc_grid(int width, int height)
 {
-int **ar, j, k;
-int len = width * height
+int **ar, i, j;
+int len = width * height;
 if (len <= 0)
 return (NULL);
 ar = (int **)malloc(sizeof(int *) * height);
-if (array == NULL)
+if (ar == NULL)
 return (NULL);
 for (i = 0; i < height; i++)
 {
