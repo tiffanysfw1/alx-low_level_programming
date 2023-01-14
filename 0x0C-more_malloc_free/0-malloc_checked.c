@@ -8,7 +8,7 @@
 void *malloc_checked(unsigned int b)
 {
 void *j
-j = malloc(b)
+j = malloc(b);
 if (j == NULL)
 _putchar(98);
 return (j);
