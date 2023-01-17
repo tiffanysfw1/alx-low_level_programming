@@ -7,8 +7,6 @@
 * Return: always zero
 */
 #define SIZE 1024
-#define int 98
-int j, k;
-j = SIZE;
-k = int;
-return (0);
+{
+return (SIZE);
+}
