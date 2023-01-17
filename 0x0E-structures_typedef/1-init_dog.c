@@ -1,5 +1,4 @@
 #include "dog.h"
-#include <stdlib.h>
 /**
 * init_dog - function that initialize a variable
 * @d: structure 
