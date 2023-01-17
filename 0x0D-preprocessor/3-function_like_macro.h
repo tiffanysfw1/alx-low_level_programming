@@ -5,5 +5,5 @@
 * main - function like macro to give absolute value
 * Return: value
 */
-#define ABS(x) ((x) < (0) ? (-x) : (x))
+#define ABS(x) ((x) < (0) ? (x) : (0))
 #endif
