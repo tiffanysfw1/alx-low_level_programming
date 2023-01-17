@@ -1,8 +1,7 @@
-#include <stdio.h>
 #define DOG_H
 #ifndef DOG_H
 
-struct User
+struct dog
 {
 char *name;
 float age;
