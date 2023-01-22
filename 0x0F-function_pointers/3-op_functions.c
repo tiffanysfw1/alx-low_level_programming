@@ -50,7 +50,7 @@ return (a / b);
 *@b: number 2
 *Return: remainder
 */
-int int op_mod(int a, int b)
+int op_mod(int a, int b)
 {
 return (a % b);
 }
