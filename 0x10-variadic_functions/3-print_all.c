@@ -2,23 +2,18 @@
 #include <stdlib.h>
 #include <stdarg.h>
 /**
- *print_all - prints any type of character
- *
- *@format:format
- *
- *Return:void
- */
+*print_all - prints any type of character
+*@format:format
+*Return:void
+*/
 void print_all(const char * const format, ...)
 {
-	int i = 0;
-	char *str, *sprtr = "";
-
-	va_list va;
-
-	va_start(va, format);
-
-	if (format)
-	{
+int i = 0;
+char *str, *sprtr = "";
+va_list va;
+va_start(va, format);
+if (format)
+{
 while (format[i] != '\0')
 {
 switch (format[i])
