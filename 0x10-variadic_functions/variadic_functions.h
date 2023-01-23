@@ -1,6 +1,6 @@
 #ifndef VARIADIC_FUNCTIONS_H
 #define VARIADIC_FUNCTIONS_H
-#include <stdlib.h>
+#include <stdarg.h>
 /**
 * struct printer - printer
 * @symbol: data type
