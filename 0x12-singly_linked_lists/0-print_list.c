@@ -1,10 +1,10 @@
 #include <stddef.h>
 #include <stdio.h>
-#include "lists.h"
+#include "list.h"
 
 /**
 * print_list - function that prints all the elements
-* @h: list 
+* @h: list
 * Return: size of the list
 */
 size_t print_list(const list_t *h)
