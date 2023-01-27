@@ -8,6 +8,7 @@
  * @n: number ot bytes to fill
  * Return: write n bytes of value b
  */
+
 char *_memset(char *s, char b, unsigned int n)
 {
 unsigned int cLoop;
