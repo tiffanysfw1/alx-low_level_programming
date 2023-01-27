@@ -1,10 +1,10 @@
 #include <stdlib.h>
 
 /**
- * _strlen_recursion - return the length of a string
- * @s: char pointer
- * Return: the length of a string
- */
+* _strlen_recursion - return the length of a string
+* @s: char pointer
+* Return: the length of a string
+*/
 
 unsigned int _strlen_recursion(char *s)
 {
@@ -19,12 +19,12 @@ return (0);
 }
 
 /**
- * string_nconcat - concatenates two strings.
- * @s1: first string
- * @s2: second string
- * @n: number of character to concatenate
- * Return: string concatenated
- */
+* string_nconcat - concatenates two strings.
+* @s1: first string
+* @s2: second string
+* @n: number of character to concatenate
+* Return: string concatenated
+*/
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
