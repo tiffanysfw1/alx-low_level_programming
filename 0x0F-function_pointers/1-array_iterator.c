@@ -29,6 +29,7 @@ return (0);
  *
  * Return: string concatenated
  */
+
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 unsigned int cLoop1, cLoop2, size_1, size_2, limit;
