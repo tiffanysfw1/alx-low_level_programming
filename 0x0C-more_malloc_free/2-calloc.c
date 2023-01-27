@@ -1,5 +1,6 @@
 #include <stddef.h>
 #include <stdlib.h>
+
 /**
 * _memset - fills the first n bytes of the memory area pointed to by with the constant byte b
 * @s: pointer to memory area
@@ -7,6 +8,7 @@
 * @n: number ot bytes to fill
 * Return: write n bytes of value b
 */
+
 char *_memset(char *s, char b, unsigned int n)
 {
 unsigned int cLoop;
@@ -16,12 +18,14 @@ s[cLoop] = b;
 }
 return (s);
 }
+
 /**
 * _calloc - allocates memory for an array
 * @nmemb: character number
 * @size: size of one case
 * Return: allocate memory an initialize it
 */
+
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 void *s;
