@@ -2,9 +2,7 @@
 
 /**
  * _strlen_recursion - return the length of a string
- *
  * @s: char pointer
- *
  * Return: the length of a string
  */
 
@@ -22,11 +20,9 @@ return (0);
 
 /**
  * string_nconcat - concatenates two strings.
- *
  * @s1: first string
  * @s2: second string
  * @n: number of character to concatenate
- *
  * Return: string concatenated
  */
 
