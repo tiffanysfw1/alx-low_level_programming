@@ -36,4 +36,3 @@ return (nnode);
 }
 return (NULL);
 }
-*head =
