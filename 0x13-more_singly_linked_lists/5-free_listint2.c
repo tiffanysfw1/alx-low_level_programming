@@ -13,5 +13,7 @@ while (*head)
 {
 hen = *head;
 *head = hen->next;
-free(hen)
+free(hen);
+}
+}
 }
