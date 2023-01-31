@@ -17,7 +17,7 @@ if (!*head)
 *head = nnode;
 else
 {
-hen = *head
+hen = *head;
 while (hen->next)
 hen = hen->next;
 hen->next = nnode;
