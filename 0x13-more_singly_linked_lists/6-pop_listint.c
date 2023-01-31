@@ -6,12 +6,12 @@
  */
 int pop_listint(listint_t **head)
 {
-listint_t *copy_head = *head
+listint_t *copy_head = *head;
 int rtrn_val;
 if (copy_head)
 {
 rtrn_val = copy_head->n;
-*head = copy = co[y_head->next;
+*head = copy_head->next;
 free(copy_head);
 }
 else
