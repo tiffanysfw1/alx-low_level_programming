@@ -2,7 +2,7 @@
 /**
  * add_nodeint - adds the node inside the lists
  * @head: input head of link
- * n: new node
+ * @n: new node
  * Return: address of new node
  */
 listint_t *add_nodeint(listint_t **head, const int n)
