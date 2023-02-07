@@ -3,6 +3,7 @@
 *set_bit - function that print the value
 *@n: pointer
 *@index: index value
+*Return: always zero
 */
 int set_bit(unsigned long int *n, unsigned int index)
 {
