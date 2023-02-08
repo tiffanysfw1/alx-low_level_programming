@@ -11,9 +11,9 @@ int t, j;
 long int jk;
 char *in;
 in = malloc(sizeof(char) * (letters + 1));
-if (filename == NULL)
+if (!filename)
 return (0);
-if (in == NULL)
+if (!in)
 return (0);
 t = open(filename, 0_RDONLY);
 if (t == -1)
